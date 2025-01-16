@@ -1,0 +1,8 @@
+@media screen and (min-width:767px){.col{width:100% !important}
+}
+.sticky{position:fixed;top:0;width:100%;z-index:777;background:#fff}
+.gma-grid .col-item.col{width:33.33% !important;flex-grow:0;flex-basis:unset}
+@media screen and (min-width:768px) and (max-width:1024px){.gma-grid .col-item.col{width:50% !important}
+}
+@media screen and (min-width:1920px){.gma-grid .col-item.col{width:25% !important}
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<title>services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ 
+ 
+</head>
+<body>
+<!-----start banner--->
+<div class="top-banner">
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+			 <button class="toggle-button" onclick="toggleNavbar()">☰ </button>
+    <div class="navbar" id="navbar">
+        <a href="#home">Book</a>
+        <a href="#about">Buy</a>
+        <a href="#services">Test Drive</a>
+        <a href="#contact">Query</a>
+    </div>
+        </div>
+    </div>
+    <div class="container">
+	</div>
+<!-----end banner--->
+<!-----start header--->
+<header>
+
+<div class="nav">
+<ul class="li d-blocks"> 
+   <li><a href="home.html">Home</a><li>
+   <li><a href="about.html">About</a><li>
+   <li><a href="services.html">Services</a><li>
+   <li><a href="accessories.html">Accessories</a><li>
+   <li><a href="accessories.html">Price</a><li>
+   <li><a href="contact.html">Contact</a><li>
+</ul>
+</div>
+</div>
+</header>
+<!-----end header---->
+
+<!-----start services---->
+<section class="file">
+
+ <div class="header">
+        <h1>Our Services</h1>
+		
+    </div>
+         <div class="container">
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+			
+			<h1>Lets Take a Test Drive</h1>
+			<h2 class="text-info fs-60 fw-700">Just Click The Bike</h2>
+        </div>
+        <div class="images">
+		
+            <div class="item"><img src="images/img 1_files/rave-red.png" alt="Image 1" onclick="slideImage(this)"></div>
+        </div>
+    </div>
+	
+</section>
+<!-----end services---->
+
+
+
+
+
+<!-----footer start---->
+<div class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/RoyalEnfield" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/royalenfield" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/royalenfield" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/royal-enfield" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2023 Royal Enfield. All rights reserved.</p>
+    </div>
+<!-----footer end---->
+
+
+
+   
+	
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+        function slideImage(img) {
+            img.classList.add('slide');
+        }
+    </script>
+	
+	
+	
+	<script>
+        function toggleNavbar() {
+            var navbar = document.getElementById('navbar');
+            if (navbar.style.display === 'flex') {
+                navbar.style.display = 'none';
+            } else {
+                navbar.style.display = 'flex';
+            }
+        }
+    </script>
+	
+
+</body>
+</html>

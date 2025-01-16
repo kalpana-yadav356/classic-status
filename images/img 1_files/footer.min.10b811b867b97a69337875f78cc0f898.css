@@ -1,0 +1,25 @@
+.fs-footer{display:flex;flex-direction:row;justify-content:space-between;align-items:center;background:#212121;padding:10px 70px;border-top:1px solid #656565}
+.footer{position:relative}
+.fs-footer p{color:#fff;margin:0}
+.fs-footer p a{color:#fff;text-decoration:none;cursor:pointer}
+.hover-effect:hover{color:#da291c !important}
+.social-icons-footer a{margin:0 8px}
+.social-icons-footer img{width:15px;vertical-align:middle}
+@media screen and (max-width:767px){.fs-footer{flex-direction:column;padding:10px 0}
+.fs-footer p{font-size:12px;padding:3px 10px 0}
+.fs-footer>*{padding:7px 0;text-align:center}
+#meteor-footer p{font-size:10px}
+.fs-ft-lh p{padding:3px 10px 0}
+.fs-ft-lh{text-align:center;padding:7px 0}
+}
+@media screen and (min-width:768px) and (max-width:1200px){.fs-footer p{font-size:12px}
+#meteor-footer p{font-size:11px !important}
+}
+@media screen and (min-width:768px){.hover-effect{text-align:center}
+}
+@media screen and (min-width:1500px) and (max-width:1870px){.hover-effect{left:46%}
+}
+@media screen and (min-width:1871px) and (max-width:2400px){.hover-effect{left:47%}
+}
+@media screen and (min-width:2401px) and (max-width:3100px){.hover-effect{left:48%}
+}
